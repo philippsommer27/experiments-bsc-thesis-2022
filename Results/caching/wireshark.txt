@@ -1,0 +1,85 @@
+Created by Wireshark 3.6.7 (v3.6.7-0-g4a304d7ec222)
+
+File
+
+Name:
+E:\Productive\bsc-thesis\bsc-thesis-2022-experiments\Results\caching\packets.pcapng
+Length:
+46 MB
+Hash (SHA256):
+f3c528d9b4eb2d850e0517cc70f169202678773fe2be99e9d04e3588bd91cae8
+Hash (RIPEMD160):
+f24ab112583b692987f5d681f52c94cbdc0853b0
+Hash (SHA1):
+3d64bda6e04ca5a649673efeae8c8c4e5c37dfea
+Format:
+Wireshark/... - pcapng
+Encapsulation:
+Ethernet
+
+Time
+
+First packet:
+2022-08-08 00:51:08
+Last packet:
+2022-08-08 00:53:35
+Elapsed:
+00:02:27
+
+Capture
+
+Hardware:
+Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz (with SSE4.2)
+OS:
+64-bit Windows 10 (21H2), build 19044
+Application:
+Dumpcap (Wireshark) 3.6.7 (v3.6.7-0-g4a304d7ec222)
+
+Interfaces
+
+Interface
+Dropped packets
+Capture filter
+Link type
+Packet size limit (snaplen)
+Ethernet
+0 (0.0%)
+none
+Ethernet
+262144 bytes
+
+Statistics
+
+Measurement
+Captured
+Displayed
+Marked
+Packets
+41990
+41990 (100.0%)
+—
+Time span, s
+147.634
+147.634
+—
+Average pps
+284.4
+284.4
+—
+Average packet size, B
+1080
+1080
+—
+Bytes
+45347652
+45347652 (100.0%)
+0
+Average bytes/s
+307 k
+307 k
+—
+Average bits/s
+2457 k
+2457 k
+—
+

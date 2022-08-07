@@ -1,0 +1,5 @@
+No Caching:
+2min 22s ± 2.93 s per loop (mean ± std. dev. of 4 runs, 1 loop each)
+
+With Caching:
+2.8 s ± 197 ms per loop (mean ± std. dev. of 4 runs, 1 loop each)

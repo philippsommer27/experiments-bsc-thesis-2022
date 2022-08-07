@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+		<style>
+        p {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 13px;
+        }
+
+        .main-border {
+            border-radius: 15px;
+            border: 2px solid black;
+            width: 360px;
+            margin: auto;
+        }
+
+        .divider {
+            border-bottom: 3px solid #333;
+            width: 350px;
+            margin: 0 auto;
+        }
+
+        .h-organizer {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .bottom-organizer {
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .item-left {
+            display: inline-block;
+        }
+
+        .item-right {
+            float: right;
+            text-align: right;
+        }
+
+        .item-right-info {
+            margin-right: 5px;
+        }
+
+        .metric-text {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .material-symbols-outlined.green {
+            color: green;
+            font-size: 30px;
+        }
+
+        .material-symbols-outlined.yellow {
+            color: #fce303;
+            font-size: 30px;
+        }
+
+        .v-line {
+            border-left: 2px solid;
+            height: 90px;
+            float: right;
+        }
+
+        .logo {
+            float: right;
+            height: 80px;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+
+        .figure {
+            margin: 0 auto;
+            width: 475px;
+        }
+
+        .doclink {
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 11px;
+        }
+
+        .comment {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .energy-icon {
+            width: 32px;
+        }
+
+        .a-remover {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        @page{
+            size: 390px 435px;
+            margin: 0
+        }
+    
+		</style>
+	</head>
+	<body style="font-family: Arial, Helvetica, sans-serif;">
+		<div class="main-border">
+			<h1 style="text-align: center; margin: 10px;">EES Report</h1>
+			<div class="divider">
+			</div>
+			<div id="metricAppend">
+				<div class="h-organizer">
+					<div class="item-left" title="Green Energy Coefficient (green definition)">
+						<h1 class="metric-text">
+							<a href="https://philipp-sommerhalter.gitbook.io/eesr/library/metrics/gec" target="_blank" class="a-remover">GEC (green)</a>
+						</h1>
+					</div>
+					<div class="item-left">
+						<span class="material-symbols-outlined green">eco</span>
+					</div>
+					<div class="item-right">
+						<h1 class="metric-text">0.11</h1>
+					</div>
+				</div>
+				<div class="h-organizer">
+					<div class="item-left" title="Green Energy Coefficient (renewable definition)">
+						<h1 class="metric-text">
+							<a href="https://philipp-sommerhalter.gitbook.io/eesr/library/metrics/gec" target="_blank" class="a-remover">GEC (ren)</a>
+						</h1>
+					</div>
+					<div class="item-left">
+						<span class="material-symbols-outlined green">eco</span>
+					</div>
+					<div class="item-right">
+						<h1 class="metric-text">0.07</h1>
+					</div>
+				</div>
+				<div class="h-organizer">
+					<div class="item-left" title="Adaptability Power Curve at Renewable Energies">
+						<h1 class="metric-text">
+							<a href="https://philipp-sommerhalter.gitbook.io/eesr/library/metrics/apcr" target="_blank" class="a-remover">APCr</a>
+						</h1>
+					</div>
+					<div class="item-left">
+						<span class="material-symbols-outlined green">eco</span>
+					</div>
+					<div class="item-right">
+						<h1 class="metric-text">0.45</h1>
+					</div>
+				</div>
+				<div class="h-organizer">
+					<div class="item-left" title="Total Carbon Dioxide Equivalent Emissions">
+						<h1 class="metric-text">
+							<a href="https://philipp-sommerhalter.gitbook.io/eesr/library/metrics/total-co2" target="_blank" class="a-remover">CO2 (kg)</a>
+						</h1>
+					</div>
+					<div class="item-left">
+						<span class="material-symbols-outlined green">eco</span>
+					</div>
+					<div class="item-right">
+						<h1 class="metric-text">36626.31</h1>
+					</div>
+				</div>
+				<div class="h-organizer">
+					<div class="item-left" title="Carbon Usage Effectiveness">
+						<h1 class="metric-text">
+							<a href="https://philipp-sommerhalter.gitbook.io/eesr/library/metrics/cue" target="_blank" class="a-remover">CUE</a>
+						</h1>
+					</div>
+					<div class="item-left">
+						<span class="material-symbols-outlined green">eco</span>
+					</div>
+					<div class="item-right">
+						<h1 class="metric-text">557.70</h1>
+					</div>
+				</div>
+			</div>
+			<div class="divider">
+			</div>
+			<div id="businessAppend">
+				<div class="h-organizer">
+					<div class="item-left">
+						<h2 class="metric-text">Total Energy Use (MWh)</h2>
+					</div>
+					<div class="item-right">
+						<h2 class="metric-text">98.43</h2>
+					</div>
+				</div>
+			</div>
+			<div class="divider">
+			</div>
+			<div class="bottom-organizer">
+				<div class="item-left" id="bottomNameAppend">
+					<p>Timeframe</p>
+					<p>Environment</p>
+					<p>Report ID</p>
+				</div>
+				<div class="item-right item-right-info" id="bottomValueAppend">
+					<p>2019-09-04 to 2019-11-25</p>
+					<p>
+						<a href="https://opendc.org/" target="_blank">OpenDC Simulator (Solvinity)</a>
+					</p>
+					<p>a6e46aad-75bc-5324-861c-611d211c7913</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
