@@ -1,2 +1,2 @@
-System time: 74.5536852000514 
-Process time: 69.609375
+System time: 76.85718379999162 
+Process time: 67.3125
